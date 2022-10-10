@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "new": {
+      "type": "boolean"
+    },
+    "hot": {
+      "type": "boolean"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "used": {
+      "type": "boolean"
+    },
+    "pictures": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "largepictures": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "smailpictures": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "releasedate": {
+      "type": "datetime"
+    },
+    "until": {
+      "type": "datetime"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tiktokurl": {
+      "type": "string"
+    },
+    "soldamout": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}
